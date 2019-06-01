@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/slider.css" rel="stylesheet" type="text/css" media="all"/>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script> 
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</head>
+<body>
+	<div class="header">
+		 <div class="headertop_desc">
+			<div class="wrap">
+				<div class="nav_list">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="contact.html">联系我们</a></li>
+					</ul>
+				</div>
+					<div class="account_desc">
+						<ul>
+							<li><a href="contact.html">注册</a></li>
+							<li><a href="contact.html">登录</a></li>
+							<li><a href="preview.html">支付</a></li>
+							<li><a href="#">结账</a></li>
+							<li><a href="#">个人用户</a></li>
+						</ul>
+					</div>
+				<div class="clear"></div>
+			</div>
+	  	</div>
+  	  		<div class="wrap">
+				<div class="header_top">
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.png"> </a>
+					</div>
+						<div class="header_top_right">
+
+							  <div class="search_box">
+					     		<form>
+					     			<input type="text" placeholder="请输入要搜索的内容" focus="this.value = '';" onblur="if (this.value == '') {this.value = '请输入搜索的内容';}"><input type="submit" value="">
+					     		</form>
+					     	</div>
+						 <div class="clear"></div>
+					</div>
+						  <script type="text/javascript">
+								function DropDown(el) {
+									this.dd = el;
+									this.initEvents();
+								}
+								DropDown.prototype = {
+									initEvents : function() {
+										var obj = this;
+					
+										obj.dd.on('click', function(event){
+											$(this).toggleClass('active');
+											event.stopPropagation();
+										});	
+									}
+								}
+					
+								$(function() {
+					
+									var dd = new DropDown( $('#dd') );
+					
+									$(document).click(function() {
+										// all dropdowns
+										$('.wrapper-dropdown-2').removeClass('active');
+									});
+					
+								});
+					    </script>
+			 <div class="clear"></div>
+  		</div>     
+				<div class="header_bottom">
+					<div class="header_bottom_left">				
+						<div class="categories">
+						   <ul>
+						  	   <h3>全部水果分类</h3>
+							      <li><a href="#">全部水果</a></li>
+							      <li><a href="#">进口水果</a></li>
+							      <li><a href="#">国产水果</a></li>
+							      <li><a href="#">当季热卖</a></li>
+							      <li><a href="#">新上市水果</a></li>
+							       <li><a href="#">特价处理</a></li>
+							       <li><a href="#">xx</a></li>
+							       <li><a href="#">xx</a></li>
+							       <li><a href="#">xx</a></li>
+							       <li><a href="#">xx</a></li>
+							       <li><a href="#">xx</a></li>
+							       <li><a href="#">xx</a></li>
+						  	 </ul>
+						</div>					
+		  	         </div>
+						    <div class="header_bottom_right">					 
+						 	    <!------ Slider ------------>
+								  <div class="slider">
+							      	<div class="slider-wrapper theme-default">
+							            <div id="slider" class="nivoSlider">
+							                <img src="images/1.png" data-thumb="images/1.jpg" alt="" />
+							                <img src="images/2.png" data-thumb="images/2.jpg" alt="" />
+							                <img src="images/3.png" data-thumb="images/3.jpg" alt="" />
+							            </div>
+							        </div>
+						   		</div>
+						<!------End Slider ------------>
+			         </div>
+			     <div class="clear"></div>
+			</div>
+   		</div>
+   </div>
+   <!------------End Header ------------>
+  <div class="main">
+  	<div class="wrap">
+      <div class="content">
+    	<div class="content_top">
+    		<div class="heading">
+    		<h3>全部水果</h3>
+    		</div>
+    	</div>
+	      <div class="section group">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="images/fengli.jpg" alt="" /></a>
+					 <h2><a href="preview.html">台湾金钻凤梨</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">￥39.00/斤</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">加入购物车</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="images/cheng.jpg" alt="" /></a>
+					 <h2><a href="preview.html">埃及橙</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">￥35.00/斤</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">加入购物车</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="images/huolongguo.jpg" alt="" /></a>
+					 <h2><a href="preview.html">越南白心火龙果</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">￥7.00/斤</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">加入购物车</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="images/mangguo.jpg" alt="" /></a>
+					 <h2><a href="preview.html">海南贵妃芒果</a></h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">￥8.00/斤</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">加入购物车</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="images/ningmeng.jpg" alt="" /></a>
+					 <h2><a href="preview.html">四川安岳柠檬</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">￥5.00/斤</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">加入购物车</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>				     
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="images/pingguo.jpg" alt="" /></a>
+					 <h2><a href="preview.html">法国加力果</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">￥7.00/斤</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">加入购物车</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>				     
+				</div>	
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="images/putao.jpg" alt="" /></a>
+					 <h2><a href="preview.html">云南夏黑葡萄</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">￥15.00/斤</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">加入购物车</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>				     
+				</div>	
+								<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="images/qiyiguo.jpg" alt="" /></a>
+					 <h2><a href="preview.html">新西兰佳沛阳光金奇异果</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">￥7.00/斤</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">加入购物车</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>				     
+				</div>	
+								<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="images/yingtao.jpg" alt="" /></a>
+					 <h2><a href="preview.html">美早樱桃</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">￥64.00/斤</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">加入购物车</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>				     
+				</div>	
+								<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="images/tiangua.jpg" alt="" /></a>
+					 <h2><a href="preview.html">陕西阎良甜瓜</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">￥5.00/斤</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">加入购物车</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>				     
+				</div>	
+			</div>
+
+			 <div class="copy_right">
+				<p>Copyright ©2019-2020 fruit.com All Rights Reserved　 |　广州果园科技有限公司　|　粤ICP备13042124号</p>
+		   </div>			
+        </div>
+    </div>
+    <script type="text/javascript">
+		$(document).ready(function() {			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+    <a href="#" id="toTop"><span id="toTopHover"> </span></a>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
+
