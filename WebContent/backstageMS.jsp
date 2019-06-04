@@ -31,9 +31,9 @@
 				<span aria-hidden="true">&times;</span>
 			</button>
 			<ul class="nav navbar-nav">
-				<li><a href="../boot.jsp">商城首页</a></li>
+				<li><a href="boot.jsp">商城首页</a></li>
 				<li><a href="">商品详情</a></li>
-				<li><a href=""></a></li>
+				<li><a href="">缺货提醒</a></li>
 				<li><a href="">添加管理员</a></li>
 				<li><a href=""></a></li>
 			</ul>
